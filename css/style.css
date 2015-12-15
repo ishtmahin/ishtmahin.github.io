@@ -1,0 +1,321 @@
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+body {
+	margin: 0px;
+}
+
+@font-face{
+	font-family: ghu-ghu;
+	src: url('../fonts/FjallaOne-Regular.otf');
+}
+
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+.clear {
+	clear: both;
+}
+
+#head {
+	width: 100%;
+	min-height: 20px;
+	background-color: #87509c;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+
+
+/*******Starting of the navbar controller that won't too long :) ***********/
+.navbar-inner {
+	background-color: transparent;
+	border: none;
+	float: right !important;
+}
+
+.navbar-inner  a {
+	font-size: 25px;
+	color: #ffffff;
+	font-family: ghu-ghu;
+	text-transform: capitalize;
+}
+
+.nav li a:hover {
+	border-radius: 10px;
+	color: #000000;
+	transition: 1s;
+}
+
+.nav li a:focus {
+	border-radius: 10px;
+	color: #000000;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.dropdown-menu {
+	background-color: #87509c;	
+}
+
+.dropdown-menu li a {
+	color: #ffffff;
+}
+
+.dropdown-header {
+	background-color: #ffffff;
+}
+
+
+/*******End of the navbar controller see I told earlier that won't too long :P ***********/
+
+/****Starting of the carousel ontrol*****/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+  .carousel-control.left, .carousel-control.right {
+  	background-image: none;
+  }
+
+  .carousel-indicators {
+  	bottom: -30px;
+  }
+
+  .carousel-inner{
+  	margin-bottom: 50px;
+  	margin-top: 25px;
+  	padding-top: 25px;
+  }
+
+  .carousel-inner h3 {
+  	font-family: ghu-ghu;
+  	text-transform: capitalize;
+  	color: #ffffff;
+  	font-size: 25px;
+  }
+
+  .carousel-inner h3 small {
+  	color: #f1f311;
+
+  }
+
+  .carousel-inner p {
+  	font-family: ghu-ghu;
+  	color: #ffffff;
+  }
+
+  .carousel-inner button {
+  	margin-top: 50px;
+  	font-size: 20px;
+  }
+
+  #myCarousel{
+  	padding: 15px 0px;
+  	min-height: 398px;
+  }
+
+/****End of the carousel ontrol*****/
+
+/********Portfolio Control**********/
+#portfolio{
+	width: 100%;
+	min-height: 20px;
+	background-color: #17c2a4;
+	padding: 30px 0px; 
+}
+
+#portfolio iframe{
+	margin-bottom: 5px;
+}
+
+#portfolio h1{
+	font-family: ghu-ghu;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+#portfolio hr {
+	border-width: 3px;
+	border-color: #14a58c; 
+	margin-top: 15px;
+}
+
+#portfolio p {
+	font-family: ghu-ghu;
+	color: #ffffff;
+}
+
+#portfolio button {
+	font-family: ghu-ghu;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+/*#tabCen {
+	width: 22%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-pills {
+    text-align:center;
+}
+
+.nav-pills li a {
+	color: #3a4644;
+	font-weight: bold;
+}
+
+#tabCon {
+	margin-top: 25px;
+}
+/********Portfolio Control**********/
+
+/********Services Control***********/
+#services{
+	width: 100%;
+	min-height: 30px;
+	background-color: #e7f1f8;
+	padding: 35px 0px;
+}
+
+#services h3{
+	font-family: ghu-ghu;
+	text-transform: uppercase;
+	color: #3a4644; 
+	font-size: 30px;
+}
+
+#services small	{
+	color: #30bae7;
+}
+
+#services h4 {
+	font-family: ghu-ghu;
+	text-transform: uppercase;
+	color: #3a4644;
+	font-size: 25px;
+}
+
+#services hr {
+	border-width: 3px;
+	border-color: #c8d9e5; 
+	margin-top: 15px;
+}
+
+#services p {
+	font-family: ghu-ghu;
+	color: #3a4644;  
+}
+
+.qtp {
+	padding: 10px 0px;
+}
+
+.qtp img {
+	max-height: 124px;
+}
+
+.hov {
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.hov:hover {
+	background-color: #c8d9e5; 
+}
+
+/********Services Control***********/
+
+/*******Footer Control******/
+footer {
+	min-height: 20px;
+	width: 100%;
+	background-color: #3c5499;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+footer h3 {
+	font-family: ghu-ghu;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+footer p {
+	font-family: ghu-ghu;
+	color: #ffffff;
+}
+
+footer hr {
+	border-color: #273a71;
+	border-width: 3px;
+	margin-top: 15px;
+}
+
+#myModal {
+	background-color: transparent;
+}
+
+.modal-content {
+	background-color: #3c5499;
+	padding: 5px;
+}
+
+.modal-content h4 {
+	font-family: ghu-ghu;
+	color: #ffffff;
+}
+
+.modal-content p {
+	font-family: ghu-ghu;
+	color: #ffffff;
+}
+
+/***** Footer Social ******/
+#footer-social{
+	background-color: #344b8e;
+	min-height: 20px;
+	padding: 20px 0px;
+	margin-top: 20px;
+}
+
+#footer-social li a {
+	font-family: ghu-ghu;
+	color: #ffffff;
+}
+
+#footer-social li a:hover {
+	color: #30bae7;
+}
+
+#footer-social li a:focus {
+	color: #30bae7;
+}
+
+#footer-social li a:active {
+	color: #30bae7;
+}
+
+/***** Footer Social ******/
+/*******Footer Control******/
+
+/***********Media queries ***************/
+@media only screen and (min-width: 150px) and (max-width: 766px){
+	
+}
+/***********Media queries ***************/
